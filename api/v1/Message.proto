@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "api/v1";
+
+package v1;
+
+service Message {
+    rpc SendMessage (RequestMessage) returns (ResponseMessage) {}
+}
+
+message RequestMessage {
+    string name = 1;
+}
+
+message ResponseMessage {
+    string message = 1;
+}
