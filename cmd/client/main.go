@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "grpc/api/v1"
+	pb "grpc-chat/api/v1"
 )
 
 const (

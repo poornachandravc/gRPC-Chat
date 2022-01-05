@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "grpc/api/v1"
+	pb "grpc-chat/api/v1"
 	"log"
 	"net"
 
